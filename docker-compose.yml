@@ -16,8 +16,8 @@ services:
         TZ: Asia/Tokyo
       restart: unless-stopped
       networks:
-        - external_network
+        - proxy_network
 
 networks:
-    external_network:
+    proxy_network:
       external: true
