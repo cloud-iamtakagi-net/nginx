@@ -1,4 +1,4 @@
-FROM nginx:1.23
+FROM nginx:1.23.0
 
 # Copy Config Files
 COPY nginx.conf /etc/nginx/
